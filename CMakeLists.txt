@@ -6,6 +6,7 @@ project(onnx_inference_project)
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Create options for building the project in Debug or Release mode
 set(CMAKE_C_FLAGS "-fPIC")
